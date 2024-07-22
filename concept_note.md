@@ -1,19 +1,19 @@
-# TITLE: KNOW OUR CLIMATE
+# TITLE: CLIMATE AWARENESS
 
 ## Concept of the project:
 
-The Spread Climate Awareness is a website that aims to liberate individuals
-about climate change. It aims to clarify climate change in simple English that 
-every individual can understand. The Website promotes green alternatives to
-everyday activities that we do that rather cause harm. It provides information 
-regarding government programs related to climate change. With the help of
-images, we describe the current state of climate.
+The CLIMATE AWARENESS is a website that aims to liberate individuals
+about climate change. It aims to clarify climate change in simple English and
+**visuals** that every individual can understand. The Website promotes green
+alternatives to everyday activities that we do that rather cause harm. It
+provides information regarding government programs related to climate change.
+With the help of images, we describe the current state of climate.
 
 ## Problem Statement:
 
 Despite the abundance of information on the web, there are a handful of websites 
 dedicated to providing information regarding climate change in simple English.
-KNOW OUR CLIMATE Website aims to provide knowledge in a centralized way, 
+CLIMATE AWARENESS Website aims to provide knowledge in a centralized way, 
 that is easily accessible to individuals who want to gain information.
 
 ## Objective of the Project:
@@ -50,7 +50,7 @@ Software:
 
 ## Probable Outcome:
 
-- Understanding Climate Change
+- Understanding of Climate Change
 - Feeling Responsible
 - Changing Behavior
 - Advocacy and Action
