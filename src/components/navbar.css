@@ -1,0 +1,21 @@
+nav{
+    margin: 5px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+nav .logo{
+    cursor: pointer;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    margin-right: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+nav ul li:hover{
+    color: aqua;
+}
