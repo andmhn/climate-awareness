@@ -10,3 +10,7 @@ We are providing awareness to public through a website.
 
 - Always when you run this app
 ```npm run dev```
+
+Thanks👍, 
+
+-Team Webtoon❤️, Climate Awareness
