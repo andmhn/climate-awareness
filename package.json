@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://andmhn/github.io/climate-awareness",
+  "homepage": "https://praweensoni01/github.io/climate-awareness",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
