@@ -1,0 +1,13 @@
+main{
+    min-height: 80vh;
+    display: grid;
+    place-items: center;
+    max-width: 900px;
+    width: 85%;
+    text-align: left;
+    margin: 0px auto;
+}
+
+h2 {
+    color:green;
+}

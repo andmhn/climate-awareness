@@ -5,9 +5,9 @@ const navbar = () => {
     <nav>
       <div className="logo">logo</div>
       <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About Climate</a></li>
+        <li><a href="#take-action">Take Action</a></li>
       </ul>
     </nav>
   )
