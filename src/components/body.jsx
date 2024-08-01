@@ -4,7 +4,7 @@ import './body.css'
 const body = () => {
   return (
     <main>
-      <h3>Welcome content here...</h3>
+      <h3>Climate Awareness!</h3>
     </main>
   )
 }
