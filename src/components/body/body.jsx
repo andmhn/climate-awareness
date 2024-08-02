@@ -1,10 +1,14 @@
 import React from 'react'
 import './body.css'
 
+import Heading from './heading.jsx'
+import Contents from './contents.jsx'
+
 const body = () => {
   return (
     <main>
-      <h3>Climate Awareness!</h3>
+      <Heading/>
+      <Contents/>
     </main>
   )
 }
