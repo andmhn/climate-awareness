@@ -1,4 +1,5 @@
 import React from 'react'
+import Card from '../card.jsx'
 
 const contents = () => {
   return (
@@ -16,7 +17,7 @@ const contents = () => {
 const OurMission = () => {
   return (
     <>
-      <h2>Our Mission</h2>
+      <h2 class="section_title" >Our Mission</h2>
       <p> We provide resource for understanding and taking action on climate change. Our mission is to educate, inspire, and empower individuals and communities to make a positive impact on our planet. Join us in the fight against climate change and be a part of the solution.</p>
       <p>At Climate Awareness, we believe that everyone has a role to play in addressing the climate crisis. Our mission is to raise awareness about climate change, provide accurate information, and offer practical solutions to reduce carbon footprints. We are a passionate group of individuals dedicated to creating a sustainable future for all.</p>
     </>
@@ -26,14 +27,22 @@ const OurMission = () => {
 const AboutClimate = () => {
   return (
     <div>
-      <h2 id="about">What is Climate Change</h2>
+      <h2 id="about"  class="section_title" >What is Climate Change</h2>
       <p>Climate change is long-term changes in temperature, precipitation, and other atmospheric conditions on Earth. These changes are largely driven by human activities, particularly the burning of fossil fuels, deforestation, and industrial processes, which increase levels of greenhouse gases in the atmosphere.</p>
 
       <h3> Causes Of Climate Change</h3>
       <ul>
-        <li>
-          <b>Greenhouse Gas Emissions:</b> Burning fossil fuels for energy and transportation releases carbon dioxide (CO2) and other greenhouse gases.
-        </li>
+
+      <div className="card-container">
+        <Card
+          text="Burning fossil fuels for energy and transportation releases carbon dioxide (CO2) and other greenhouse gases."
+          imgHeight="300px"
+          imgSrc="green_house_gas.jpg"
+          alt="image of factory"
+          title="Greenhouse Gas Emissions"
+        />
+      </div>
+
         <li>
           <b>Deforestation:</b> Cutting down forests reduces the planet’s capacity to absorb CO2.
         </li>
@@ -68,7 +77,7 @@ const AboutClimate = () => {
 const TakeAction = () => {
   return (
     <>
-      <h2 id="take-action">Take Action</h2>
+      <h2 id="take-action"  class="section_title" >Take Action</h2>
 
       <h3>Individual Actions</h3>
       <ul>
@@ -106,7 +115,7 @@ const TakeAction = () => {
 const Resources = () => {
   return (
     <>
-      <h2>Resources</h2>
+      <h2 class="section_title" >Resources</h2>
 
       <h3>Educational Materials</h3>
       <ul>
@@ -138,7 +147,7 @@ const Resources = () => {
 const GetInvolved = () => {
   return (
     <>
-      <h2>Get Involved</h2>
+      <h2 class="section_title" >Get Involved</h2>
 
       <h3>Join Our Community</h3>
       <ul>

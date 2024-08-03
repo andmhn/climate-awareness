@@ -1,0 +1,41 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border: solid 1px rgb(134, 16, 16);
+  overflow: auto;
+  max-width: 100%;
+  container-type: inline-size;
+}
+.card {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  background-color: rgba(236, 217, 255, 0.473);
+  border-radius: 12px;
+  padding: 24px;
+}
+.card > div > h4 {
+  font-size: 24px;
+  margin: 12px 0;
+}
+.card:has(h4) {
+  align-items: start;
+}
+.card > h4 {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  background-color: rgba(236, 217, 255, 0.473);
+  border-radius: 12px;
+  padding: 24px;
+}
+@container (max-width: 600px) {
+  .card {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .card:has(h4) {
+    align-items: center;
+  }
+}
