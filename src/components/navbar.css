@@ -16,12 +16,13 @@ nav ul{
     list-style: none;
     display: flex;
 }
-nav ul li{
+nav ul li a, #link{
     margin-right: 30px;
     cursor: pointer;
+    color: black;
     transition: .2s;
 }
 
-nav ul li:hover{
-    color: aqua;
+nav ul li a:hover, #link:hover{
+    color: green;
 }
