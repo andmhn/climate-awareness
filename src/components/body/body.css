@@ -8,15 +8,15 @@
 }
 
 .section_title {
-    font-size: 5vh;
+    font-size:40px;
     color:#07ac34;
     text-shadow: 2px 2px 5px lightgreen;
 }
 
 .intro {
     color:white;
-    height:80vh;
-    font-size: 8vh;
+    height:85vh;
+    font-size: 50px;
     text-align: center;
     display: grid;
     place-items: center;
