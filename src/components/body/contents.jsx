@@ -147,7 +147,7 @@ const TakeAction = () => {
 const Resources = () => {
   return (
     <>
-      <h2 class="section_title" >Resources</h2>
+      <h2 id="resources" class="section_title" >Resources</h2>
 
       <h3>Educational Materials</h3>
       <ul>
