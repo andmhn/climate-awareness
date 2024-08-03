@@ -4,12 +4,12 @@ const navbar = () => {
   return (
     <nav>
       <div className="logo">
-        <a href="#"><img src="earth_logo.png" alt="logo" height="80px"/></a>
+        <a href="#"><img src="earth_logo.png" alt="logo" height="70px"/></a>
       </div>
       <ul>
         <li><a href="#about">About Climate</a></li>
         <li><a href="#take-action">Take Action</a></li>
-        <li><a href="#resources">Resources</a></li>
+        <li><a href="#tools">Tools</a></li>
       </ul>
     </nav>
   )

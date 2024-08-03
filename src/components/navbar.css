@@ -6,8 +6,8 @@ nav{
 }
 
 nav {
-   height: 5vh;
-   min-height: 100px;
+/*   height: 5vh;*/
+   min-height: 10vh;
 }
 nav .logo{
     cursor: pointer;
