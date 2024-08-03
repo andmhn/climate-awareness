@@ -2,7 +2,7 @@ import React from 'react'
 
 const contents = () => {
   return (
-    <div>
+    <div className="contents">
       <OurMission/>
       <AboutClimate/>
       <TakeAction/>
@@ -16,6 +16,7 @@ const OurMission = () => {
   return (
     <>
       <h2>Our Mission</h2>
+      <p> We provide resource for understanding and taking action on climate change. Our mission is to educate, inspire, and empower individuals and communities to make a positive impact on our planet. Join us in the fight against climate change and be a part of the solution.</p>
       <p>At Climate Awareness, we believe that everyone has a role to play in addressing the climate crisis. Our mission is to raise awareness about climate change, provide accurate information, and offer practical solutions to reduce carbon footprints. We are a passionate group of individuals dedicated to creating a sustainable future for all.</p>
     </>
   )

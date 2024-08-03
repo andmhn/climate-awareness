@@ -1,7 +1,6 @@
-main{
+.contents{
     min-height: 80vh;
     display: grid;
-    place-items: center;
     max-width: 900px;
     width: 85%;
     text-align: left;
@@ -10,4 +9,16 @@ main{
 
 h2 {
     color:green;
+}
+
+.intro {
+    color:white;
+    height:80vh;
+    font-size: 80px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+
+    background-image: url("intro_background.jpg");
+    background-size: cover;
 }
