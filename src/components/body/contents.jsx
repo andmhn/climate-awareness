@@ -31,7 +31,6 @@ const AboutClimate = () => {
       <p>Climate change is long-term changes in temperature, precipitation, and other atmospheric conditions on Earth. These changes are largely driven by human activities, particularly the burning of fossil fuels, deforestation, and industrial processes, which increase levels of greenhouse gases in the atmosphere.</p>
 
       <h3> Causes Of Climate Change</h3>
-      <ul>
 
       <div className="card-container">
         <Card
@@ -41,11 +40,17 @@ const AboutClimate = () => {
           alt="image of factory"
           title="Greenhouse Gas Emissions"
         />
+
+        <Card
+          text="Cutting down forests reduces the planet’s capacity to absorb CO2."
+          imgHeight="400px"
+          imgSrc="deforestation.jpg"
+          alt="image of logs"
+          title="Deforestation"
+        />
       </div>
 
-        <li>
-          <b>Deforestation:</b> Cutting down forests reduces the planet’s capacity to absorb CO2.
-        </li>
+      <ul>
         <li>
           <b>Agricultural Practices:</b> Certain farming practices increase methane and nitrous oxide levels in the atmosphere.
         </li>
