@@ -8,6 +8,7 @@ const contents = () => {
       <TakeAction/>
       <Resources/>
       <GetInvolved/>
+      <Team/>
     </div>
   )
 }
@@ -152,6 +153,20 @@ const GetInvolved = () => {
         </li>
       </ul>
     </>
+  )
+}
+
+const Team = () =>{
+  return(
+    <div id=''>
+    <p>Team Members :</p>
+    <div id='teams'>
+    <div><a href="https://github.com/andmhn/" id='link'>Anand Mohan</a></div>
+    <div><a href="https://github.com/praweensoni01/" id='link'>Praween Soni</a></div>
+    <div><a href="https://github.com/admon/" id='link'>Admon</a></div>
+    <div><a href="https://github.com/saurabhmahto/" id='link'>Saurabh Mahto</a></div>
+    </div>
+    </div>
   )
 }
 export default contents
