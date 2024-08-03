@@ -22,3 +22,9 @@ h2 {
     background-image: url("intro_background.jpg");
     background-size: cover;
 }
+
+#teams{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
