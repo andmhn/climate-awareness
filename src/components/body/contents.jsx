@@ -8,7 +8,6 @@ const contents = () => {
       <AboutClimate/>
       <TakeAction/>
       <Resources/>
-      <GetInvolved/>
       <Team/>
     </div>
   )
@@ -32,7 +31,6 @@ const AboutClimate = () => {
 
       <h3> Causes Of Climate Change</h3>
 
-      <div className="card-container">
         <Card
           text="Burning fossil fuels for energy and transportation releases carbon dioxide (CO2) and other greenhouse gases."
           imgHeight="300px"
@@ -48,32 +46,57 @@ const AboutClimate = () => {
           alt="image of logs"
           title="Deforestation"
         />
-      </div>
 
-      <ul>
-        <li>
-          <b>Agricultural Practices:</b> Certain farming practices increase methane and nitrous oxide levels in the atmosphere.
-        </li>
-        <li>
-          <b>Industrial Activities:</b> Factories and industrial processes contribute significantly to greenhouse gas emissions.
-        </li>
-      </ul>
+        <Card
+          text="Vehicle traffic is a major source of air pollution, emitting harmful pollutants like particulate matter (PM), nitrogen oxides (NOx), and volatile organic compounds (VOCs). These pollutants can cause respiratory problems, cardiovascular disease, and even cancer."
+          imgHeight="300px"
+          imgSrc="traffic.jpg"
+          alt="image of traffic"
+          title="Air pollution and health risks due to vehicle traffic"
+        />
  
       <h3> Impacts Of Climate Change</h3>
-      <ul>
-        <li>
-          <b>Rising Temperatures:</b> Global temperatures are increasing, leading to more frequent and severe heatwaves.
-        </li>
-        <li>
-          <b>Melting Ice Caps:</b> Polar ice caps and glaciers are melting, contributing to rising sea levels.
-        </li>
-        <li>
-          <b>Extreme Weather:</b> Increased frequency of extreme weather events such as hurricanes, floods, and droughts.
-        </li>
-        <li>
-          <b>Biodiversity Loss:</b> Many species are at risk due to changing habitats and ecosystems.
-        </li>
-      </ul>
+
+        <Card
+          text="The Earth's temperature is rising at an alarming rate, with severe consequences. Human activities like burning fossil fuels, deforestation, and industrial agriculture release greenhouse gases, trapping heat and causing global warming."
+          imgHeight="300px"
+          imgSrc="rising_temperature.jpg"
+          alt="image of traffic"
+          title="Rising Temperature: A Growing Concern"
+        />
+
+        <Card
+          text="Droughts in the Southwest and heat waves (periods of abnormally hot weather lasting days to weeks) are projected to become more intense, and cold waves less intense and less frequent."
+          imgHeight="300px"
+          imgSrc="california-drought-dry-lakebed-2009.webp"
+          alt="image of california-drought-dry-lakebed-2009"
+          title="More Droughts and Heat Waves"
+        />
+
+         <Card
+          text="Warming temperatures have extended and intensified wildfire season in the West, where long-term drought in the region has heightened the risk of fires. Scientists estimate that human-caused climate change has already doubled the area of forest burned in recent decades. By around 2050, the amount of land consumed by wildfires in Western states is projected to further increase by two to six times. Even in traditionally rainy regions like the Southeast, wildfires are projected to increase by about 30%."
+          imgHeight="300px"
+          imgSrc="wildfire.webp"
+          alt="image of wildfire"
+          title="Longer Wildfire Season"
+        />
+
+        <Card
+          text="Climate change is having an uneven effect on precipitation (rain and snow) in the United States, with some locations experiencing increased precipitation and flooding, while others suffer from drought. On average, more winter and spring precipitation is projected for the northern United States, and less for the Southwest, over this century."
+          imgHeight="300px"
+          imgSrc="flooded-road-in-oklahoma.gif"
+          alt="image of flooded-road"
+          title="Changes in Precipitation Patterns"
+        />
+
+
+        <Card
+          text="Sea ice cover in the Arctic Ocean is expected to continue decreasing, and the Arctic Ocean will very likely become essentially ice-free in late summer if current projections hold. This change is expected to occur before mid-century."
+          imgHeight="300px"
+          imgSrc="1069-arctic-ice.webp"
+          alt="image of arctic-ice"
+          title="Arctic Is Very Likely to Become Ice-Free"
+        />
    </div>
   )
 }
@@ -145,28 +168,6 @@ const Resources = () => {
         </li>
       </ul>
   </>
-  )
-}
-
-
-const GetInvolved = () => {
-  return (
-    <>
-      <h2 class="section_title" >Get Involved</h2>
-
-      <h3>Join Our Community</h3>
-      <ul>
-        <li>
-          Newsletter: Subscribe to our newsletter for the latest updates and climate news.
-        </li>
-        <li>
-          Events: Attend our events and workshops to learn more and connect with like-minded individuals.
-        </li>
-        <li>
-          Social Media: Follow us on social media to stay informed and engage with our community.
-        </li>
-      </ul>
-    </>
   )
 }
 
