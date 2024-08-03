@@ -42,11 +42,11 @@ const AboutClimate = () => {
       </div>
       <div className="card-container">
         <Card
-          text="Cutting down forests reduces the planet’s capacity to absorb CO2. Between 2000 and 2012, 2.3 million square kilometres (890,000 square miles) of forests around the world were cut down. Deforestation and forest degradation continue to take place at alarming rates, which contributes significantly to the ongoing loss of biodiversity."
-          imgHeight="400px"
+          text="Between 2000 and 2012, 2.3 million square kilometres (890,000 square miles) of forests around the world were cut down. Deforestation and forest degradation continue to take place at alarming rates, which contributes significantly to the ongoing loss of biodiversity."
+          imgHeight="300px"
           imgSrc="deforestation.jpg"
           alt="image of logs"
-          title="Deforestation"
+          title="Deforestation reduces the planet’s capacity to absorb CO2"
         />
       </div>
  
