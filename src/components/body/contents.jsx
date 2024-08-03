@@ -31,6 +31,7 @@ const AboutClimate = () => {
 
       <h3> Causes Of Climate Change</h3>
 
+      <div className="card-container">
         <Card
           text="Burning fossil fuels for energy and transportation releases carbon dioxide (CO2) and other greenhouse gases."
           imgHeight="300px"
@@ -54,8 +55,11 @@ const AboutClimate = () => {
           alt="image of traffic"
           title="Air pollution and health risks due to vehicle traffic"
         />
+      </div>
  
       <h3> Impacts Of Climate Change</h3>
+
+      <div className="card-container">
 
         <Card
           text="The Earth's temperature is rising at an alarming rate, with severe consequences. Human activities like burning fossil fuels, deforestation, and industrial agriculture release greenhouse gases, trapping heat and causing global warming."
@@ -89,7 +93,6 @@ const AboutClimate = () => {
           title="Changes in Precipitation Patterns"
         />
 
-
         <Card
           text="Sea ice cover in the Arctic Ocean is expected to continue decreasing, and the Arctic Ocean will very likely become essentially ice-free in late summer if current projections hold. This change is expected to occur before mid-century."
           imgHeight="300px"
@@ -97,6 +100,7 @@ const AboutClimate = () => {
           alt="image of arctic-ice"
           title="Arctic Is Very Likely to Become Ice-Free"
         />
+      </div>
    </div>
   )
 }
