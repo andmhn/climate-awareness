@@ -33,27 +33,20 @@ const AboutClimate = () => {
 
       <div className="card-container">
         <Card
-          text="Burning fossil fuels for energy and transportation releases carbon dioxide (CO2) and other greenhouse gases."
+          text="Life on Earth depends on energy coming from the Sun. About half the light energy reaching Earth's atmosphere passes through the air and clouds to the surface, where it is absorbed and radiated in the form of infrared heat. About 90% of this heat is then absorbed by greenhouse gases and re-radiated, slowing heat loss to space."
           imgHeight="300px"
           imgSrc="green_house_gas.jpg"
           alt="image of factory"
-          title="Greenhouse Gas Emissions"
+          title="Increasing Greenhouses Gases Are Warming the Planet"
         />
-
+      </div>
+      <div className="card-container">
         <Card
-          text="Cutting down forests reduces the planet’s capacity to absorb CO2."
+          text="Cutting down forests reduces the planet’s capacity to absorb CO2. Between 2000 and 2012, 2.3 million square kilometres (890,000 square miles) of forests around the world were cut down. Deforestation and forest degradation continue to take place at alarming rates, which contributes significantly to the ongoing loss of biodiversity."
           imgHeight="400px"
           imgSrc="deforestation.jpg"
           alt="image of logs"
           title="Deforestation"
-        />
-
-        <Card
-          text="Vehicle traffic is a major source of air pollution, emitting harmful pollutants like particulate matter (PM), nitrogen oxides (NOx), and volatile organic compounds (VOCs). These pollutants can cause respiratory problems, cardiovascular disease, and even cancer."
-          imgHeight="300px"
-          imgSrc="traffic.jpg"
-          alt="image of traffic"
-          title="Air pollution and health risks due to vehicle traffic"
         />
       </div>
  
@@ -68,7 +61,8 @@ const AboutClimate = () => {
           alt="image of traffic"
           title="Rising Temperature: A Growing Concern"
         />
-
+      </div>
+      <div className="card-container">
         <Card
           text="Droughts in the Southwest and heat waves (periods of abnormally hot weather lasting days to weeks) are projected to become more intense, and cold waves less intense and less frequent."
           imgHeight="300px"
@@ -76,7 +70,8 @@ const AboutClimate = () => {
           alt="image of california-drought-dry-lakebed-2009"
           title="More Droughts and Heat Waves"
         />
-
+      </div>
+      <div className="card-container">
          <Card
           text="Warming temperatures have extended and intensified wildfire season in the West, where long-term drought in the region has heightened the risk of fires. Scientists estimate that human-caused climate change has already doubled the area of forest burned in recent decades. By around 2050, the amount of land consumed by wildfires in Western states is projected to further increase by two to six times. Even in traditionally rainy regions like the Southeast, wildfires are projected to increase by about 30%."
           imgHeight="300px"
@@ -84,7 +79,8 @@ const AboutClimate = () => {
           alt="image of wildfire"
           title="Longer Wildfire Season"
         />
-
+      </div>
+      <div className="card-container">
         <Card
           text="Climate change is having an uneven effect on precipitation (rain and snow) in the United States, with some locations experiencing increased precipitation and flooding, while others suffer from drought. On average, more winter and spring precipitation is projected for the northern United States, and less for the Southwest, over this century."
           imgHeight="300px"
@@ -92,7 +88,8 @@ const AboutClimate = () => {
           alt="image of flooded-road"
           title="Changes in Precipitation Patterns"
         />
-
+      </div>
+      <div className="card-container">
         <Card
           text="Sea ice cover in the Arctic Ocean is expected to continue decreasing, and the Arctic Ocean will very likely become essentially ice-free in late summer if current projections hold. This change is expected to occur before mid-century."
           imgHeight="300px"
