@@ -10,6 +10,7 @@
 .section_title {
     font-size: 5vh;
     color:#07ac34;
+    text-shadow: 2px 2px 5px lightgreen;
 }
 
 .intro {
@@ -25,9 +26,10 @@
 }
 
 #welcome{
-    color: lightgreen;
-    text-shadow: 4px 4px 10px black;
+    color: white;
+    text-shadow: 10px 10px 20px black;
     margin: 5px 30px;
+    font-weight: 900;
 }
 
 #teams{
