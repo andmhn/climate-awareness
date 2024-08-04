@@ -1,35 +1,36 @@
-import React from 'react'
-import Card from '../card.jsx'
-import TextBox from '../card.jsx'
+import React from "react";
+import Card from "../card.jsx";
+import TextBox from "../card.jsx";
 // import TextTitleBox from '../card.jsx'
-
 
 const contents = () => {
   return (
     <div className="contents">
-      <AboutClimate/>
-      <TakeAction/>
-      <Resources/>
-      <OurMission/>
-      <Team/>
+      <AboutClimate />
+      <TakeAction />
+      <Resources />
+      <OurMission />
+      <Team />
     </div>
-  )
-}
+  );
+};
 
 const OurMission = () => {
   return (
     <div style={{ marginTop: "15px" }}>
-      <p className="section_title" >Our Mission</p>
-      <TextBox text = "We provide resource for understanding and taking action on climate change. Our mission is to raise awareness about climate change, provide accurate information, and offer practical solutions to reduce carbon footprints."/>
+      <p className="section_title">Our Mission</p>
+      <TextBox text="We provide resource for understanding and taking action on climate change. Our mission is to raise awareness about climate change, provide accurate information, and offer practical solutions to reduce carbon footprints." />
     </div>
-  )
-}
+  );
+};
 
 const AboutClimate = () => {
   return (
     <div>
-      <h2 id="about"  className="section_title" >What is Climate Change</h2>
-      <TextBox text = "Climate change is long-term changes in temperature, precipitation, and other atmospheric conditions on Earth. These changes are largely driven by human activities, particularly the burning of fossil fuels, deforestation, and industrial processes, which increase levels of greenhouse gases in the atmosphere."/>
+      <h2 id="about" className="section_title">
+        What is Climate Change
+      </h2>
+      <TextBox text="Climate change is long-term changes in temperature, precipitation, and other atmospheric conditions on Earth. These changes are largely driven by human activities, particularly the burning of fossil fuels, deforestation, and industrial processes, which increase levels of greenhouse gases in the atmosphere." />
 
       <p className="sub_section_title"> Causes Of Climate Change</p>
 
@@ -51,11 +52,10 @@ const AboutClimate = () => {
           title="Deforestation reduces the planet’s capacity to absorb CO2"
         />
       </div>
- 
+
       <p className="sub_section_title"> Impacts Of Climate Change</p>
 
       <div className="card-container">
-
         <Card
           text="The Earth's temperature is rising at an alarming rate, with severe consequences. Human activities like burning fossil fuels, deforestation, and industrial agriculture release greenhouse gases, trapping heat and causing global warming."
           imgHeight="300px"
@@ -74,7 +74,7 @@ const AboutClimate = () => {
         />
       </div>
       <div className="card-container">
-         <Card
+        <Card
           text="Warming temperatures have extended and intensified wildfire season in the West, where long-term drought in the region has heightened the risk of fires. Scientists estimate that human-caused climate change has already doubled the area of forest burned in recent decades. By around 2050, the amount of land consumed by wildfires in Western states is projected to further increase by two to six times. Even in traditionally rainy regions like the Southeast, wildfires are projected to increase by about 30%."
           imgHeight="300px"
           imgSrc="wildfire.webp"
@@ -100,15 +100,16 @@ const AboutClimate = () => {
           title="Arctic Is Very Likely to Become Ice-Free"
         />
       </div>
-   </div>
-  )
-}
-
+    </div>
+  );
+};
 
 const TakeAction = () => {
   return (
     <>
-      <h2 id="take-action"  className="section_title" >Take Action</h2>
+      <h2 id="take-action" className="section_title">
+        Take Action
+      </h2>
 
       <p className="sub_section_title">Individual Actions</p>
       <div className="card-container">
@@ -162,49 +163,94 @@ const TakeAction = () => {
         />
       </div>
     </>
-  )
-}
+  );
+};
 
 const Resources = () => {
   return (
     <>
-      <h2 id="tools" className="section_title" >Resources and Tools</h2>
- 
+      <h2 id="tools" className="section_title">
+        Resources and Tools
+      </h2>
+
       <div className="card_square">
-        ﻿<div>
-          <h4><a href="https://www.carbonfootprint.com/calculator.aspx">Carbon Footprint Calculator</a></h4>
-          <div>﻿
-            ﻿ <p>Calculate your personal or household carbon footprint and find ways to reduce it.</p>
-            <p>  This carbon calculator is provided free to use for Individuals And Households</p>
+        ﻿
+        <div>
+          <h4>
+            <a href="https://www.carbonfootprint.com/calculator.aspx">
+              Carbon Footprint Calculator
+            </a>
+          </h4>
+          <div>
+            ﻿ ﻿{" "}
+            <p>
+              Calculate your personal or household carbon footprint and find
+              ways to reduce it.
+            </p>
+            <p>
+              {" "}
+              This carbon calculator is provided free to use for Individuals And
+              Households
+            </p>
           </div>
-        ﻿</div>
+          ﻿
+        </div>
       </div>
 
       <div className="card_square">
-        ﻿<div>
-          <h4><a href="https://www.vem-group.com/en/energiesparrechner/"> Calculate Efficiency of Energy-Saving Motors
-  </a></h4>
-          <div>﻿
-            ﻿<p> Determine how much energy you can save by making small changes in your daily habits.</p>
+        ﻿
+        <div>
+          <h4>
+            <a href="https://www.vem-group.com/en/energiesparrechner/">
+              {" "}
+              Calculate Efficiency of Energy-Saving Motors
+            </a>
+          </h4>
+          <div>
+            ﻿ ﻿
+            <p>
+              {" "}
+              Determine how much energy you can save by making small changes in
+              your daily habits.
+            </p>
             <p>Enter your key data and have the efficiency calculated.</p>
           </div>
-        ﻿</div>
+          ﻿
+        </div>
       </div>
-  </>
-  )
-}
+    </>
+  );
+};
 
-const Team = () =>{
-  return(
-    <div id=''>
-    <p className="section_title" >Team Members</p>
-    <div id='teams'>
-    <div><a href="https://github.com/andmhn/" id='link'>Anand Mohan</a></div>
-    <div><a href="https://github.com/praweensoni01/" id='link'>Praween Soni</a></div>
-    <div><a href="https://github.com/edmonsaras" id='link'>Admon</a></div>
-    <div><a href="https://github.com/Saurabh-Mahto/" id='link'>Saurabh Mahto</a></div>
+const Team = () => {
+  return (
+    <div id="">
+      <p className="section_title">Team Members</p>
+      <div id="teams">
+        <ul>
+          <li>
+            <a href="https://github.com/andmhn/" id="link">
+              Anand Mohan
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/praweensoni01/" id="link">
+              Praween Soni
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/edmonsaras" id="link">
+              Admon
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/Saurabh-Mahto/" id="link">
+              Saurabh Mahto
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
-    </div>
-  )
-}
-export default contents
+  );
+};
+export default contents;
