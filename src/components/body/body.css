@@ -20,7 +20,7 @@ body {
 }
 
 .sub_section_title {
-    font-size:30px;
+    font-size:25px;
     color:#232925;
 }
 
@@ -44,9 +44,10 @@ body {
 }
 
 #teams{
-    display: flex;
-    align-items: center;
     margin-left: 20px;
+}
+#teams ul{
+    display: flex;
 }
 
 #scroll_btn {
