@@ -10,7 +10,7 @@ function App() {
      <Navbar/>
      <Body/>
      <ScrollToTop smooth
-       width="40" viewBox="50 0 256 256"
+       width="40" viewBox="40 0 256 256"
        style={{ backgroundColor: "lightgreen" }}
      />
      <Footer/>

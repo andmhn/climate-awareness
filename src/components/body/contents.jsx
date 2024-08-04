@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from '../card.jsx'
+import TextBox from '../card.jsx'
 
 const contents = () => {
   return (
@@ -17,8 +18,7 @@ const OurMission = () => {
   return (
     <>
       <h2 className="section_title" >Our Mission</h2>
-      <p> We provide resource for understanding and taking action on climate change. Our mission is to educate, inspire, and empower individuals and communities to make a positive impact on our planet. Join us in the fight against climate change and be a part of the solution.</p>
-      <p>At Climate Awareness, we believe that everyone has a role to play in addressing the climate crisis. Our mission is to raise awareness about climate change, provide accurate information, and offer practical solutions to reduce carbon footprints. We are a passionate group of individuals dedicated to creating a sustainable future for all.</p>
+      <TextBox text = "We provide resource for understanding and taking action on climate change. Our mission is to raise awareness about climate change, provide accurate information, and offer practical solutions to reduce carbon footprints."/>
     </>
   )
 }
@@ -27,7 +27,7 @@ const AboutClimate = () => {
   return (
     <div>
       <h2 id="about"  className="section_title" >What is Climate Change</h2>
-      <p>Climate change is long-term changes in temperature, precipitation, and other atmospheric conditions on Earth. These changes are largely driven by human activities, particularly the burning of fossil fuels, deforestation, and industrial processes, which increase levels of greenhouse gases in the atmosphere.</p>
+      <TextBox text = "Climate change is long-term changes in temperature, precipitation, and other atmospheric conditions on Earth. These changes are largely driven by human activities, particularly the burning of fossil fuels, deforestation, and industrial processes, which increase levels of greenhouse gases in the atmosphere."/>
 
       <h3> Causes Of Climate Change</h3>
 

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import scrollById from '../scrollById'
+import scrollById from '../../utils'
 
 const heading = () => {
   return (
@@ -8,9 +8,9 @@ const heading = () => {
 
         <p id="welcome">Climate Awareness</p>
 
-        <button id="scroll_btn" onClick={() => scrollById("about", true)}>
-          learn about climate
-        </button>
+        <a id="scroll_btn" onClick={() => scrollById("about", true)}>
+          ▼ learn about climate ▼
+        </a>
 
       </div>
   )

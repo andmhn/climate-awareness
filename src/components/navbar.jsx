@@ -1,5 +1,5 @@
 import React from 'react'
-import scrollById from './scrollById'
+import scrollById from '../utils'
 
 import './navbar.css'
 
