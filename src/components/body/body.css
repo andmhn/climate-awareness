@@ -12,10 +12,10 @@ body {
 }
 
 .section_title {
-    font-size:50px;
+    font-size:40px;
     color:#232925;
     text-shadow: 1px 1px 1px lightgreen;
-    border-bottom: 2px solid grey;
+/*     border-bottom: 2px solid grey; */
     padding-bottom: 5px;
 }
 
