@@ -1,14 +1,16 @@
 import React from 'react'
 import Card from '../card.jsx'
 import TextBox from '../card.jsx'
+import TextTitleBox from '../card.jsx'
+
 
 const contents = () => {
   return (
     <div className="contents">
-      <OurMission/>
       <AboutClimate/>
       <TakeAction/>
       <Resources/>
+      <OurMission/>
       <Team/>
     </div>
   )
@@ -16,10 +18,11 @@ const contents = () => {
 
 const OurMission = () => {
   return (
-    <>
-      <h2 className="section_title" >Our Mission</h2>
-      <TextBox text = "We provide resource for understanding and taking action on climate change. Our mission is to raise awareness about climate change, provide accurate information, and offer practical solutions to reduce carbon footprints."/>
-    </>
+    <div style={{ marginTop: "15px" }}>
+      <TextTitleBox
+        title = "Our Mission"
+        text = "We provide resource for understanding and taking action on climate change. Our mission is to raise awareness about climate change, provide accurate information, and offer practical solutions to reduce carbon footprints."/>
+    </div>
   )
 }
 

@@ -12,7 +12,7 @@
   display: flex;
   gap: 24px;
   align-items: center;
-  background-color: rgba(236, 217, 255, 0.473);
+  background-color: rgb(223, 247, 229);
   border-radius: 12px;
   padding: 24px;
 }
