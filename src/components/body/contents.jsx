@@ -182,7 +182,7 @@ const Resources = () => {
 
       <div className="card_square">
         ﻿<div>
-          <h4><a href="https://www.vem-group.com/en/energiesparrechner/"> Calculate Efficiency of VEM energy-saving motors
+          <h4><a href="https://www.vem-group.com/en/energiesparrechner/"> Calculate Efficiency of Energy-Saving Motors
   </a></h4>
           <div>﻿
             ﻿<p> Determine how much energy you can save by making small changes in your daily habits.</p>
