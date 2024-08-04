@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from '../card.jsx'
 import TextBox from '../card.jsx'
-import TextTitleBox from '../card.jsx'
+// import TextTitleBox from '../card.jsx'
 
 
 const contents = () => {
@@ -19,9 +19,8 @@ const contents = () => {
 const OurMission = () => {
   return (
     <div style={{ marginTop: "15px" }}>
-      <TextTitleBox
-        title = "Our Mission"
-        text = "We provide resource for understanding and taking action on climate change. Our mission is to raise awareness about climate change, provide accurate information, and offer practical solutions to reduce carbon footprints."/>
+      <p className="section_title" >Our Mission</p>
+      <TextBox text = "We provide resource for understanding and taking action on climate change. Our mission is to raise awareness about climate change, provide accurate information, and offer practical solutions to reduce carbon footprints."/>
     </div>
   )
 }
@@ -148,29 +147,28 @@ const Resources = () => {
   return (
     <>
       <h2 id="tools" className="section_title" >Resources and Tools</h2>
-
-      <h3>Educational Materials</h3>
-      <ul>
-        <li>
-          <b>Articles and Reports:</b> In-depth articles and reports on various aspects of climate change.
-        </li>
-          <b>Infographics:</b> Visual representations of climate data and trends.
-        <li>
-        </li>
-        <li>
-          <b>Videos and Webinars:</b> Educational videos and webinars featuring climate experts.
-        </li>
-      </ul>
  
       <h3>Tools and Calculators</h3>
-      <ul>
-        <li>
-          <b>Carbon Footprint Calculator:</b> Calculate your personal or household carbon footprint and find ways to reduce it.
-        </li>
-        <li>
-          <b>Energy Savings Calculator:</b> Determine how much energy you can save by making small changes in your daily habits.
-        </li>
-      </ul>
+      <div className="card_square">
+        ﻿<div>
+          <h4><a href="https://www.carbonfootprint.com/calculator.aspx">Carbon Footprint Calculator</a></h4>
+          <div>﻿
+            ﻿ <p>Calculate your personal or household carbon footprint and find ways to reduce it.</p>
+            <p>  This carbon calculator is provided free to use for Individuals And Households</p>
+          </div>
+        ﻿</div>
+      </div>
+
+      <div className="card_square">
+        ﻿<div>
+          <h4><a href="https://www.vem-group.com/en/energiesparrechner/"> Calculate Efficiency of VEM energy-saving motors
+  </a></h4>
+          <div>﻿
+            ﻿<p> Determine how much energy you can save by making small changes in your daily habits.</p>
+            <p>Enter your key data and have the efficiency calculated.</p>
+          </div>
+        ﻿</div>
+      </div>
   </>
   )
 }
@@ -178,12 +176,12 @@ const Resources = () => {
 const Team = () =>{
   return(
     <div id=''>
-    <p>Team Members :</p>
+    <p className="section_title" >Team Members</p>
     <div id='teams'>
     <div><a href="https://github.com/andmhn/" id='link'>Anand Mohan</a></div>
     <div><a href="https://github.com/praweensoni01/" id='link'>Praween Soni</a></div>
     <div><a href="https://github.com/edmonsaras" id='link'>Admon</a></div>
-    <div><a href="https://github.com/saurabhmahto/" id='link'>Saurabh Mahto</a></div>
+    <div><a href="https://github.com/Saurabh-Mahto/" id='link'>Saurabh Mahto</a></div>
     </div>
     </div>
   )

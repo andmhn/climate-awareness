@@ -40,3 +40,10 @@
     align-items: center;
   }
 }
+
+.card_square {
+  align-items: center;
+  background-color: rgb(223, 247, 229);
+/*   border-radius: 12px; */
+  padding-left: 15px;
+}
