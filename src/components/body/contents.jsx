@@ -31,7 +31,7 @@ const AboutClimate = () => {
       <h2 id="about"  className="section_title" >What is Climate Change</h2>
       <TextBox text = "Climate change is long-term changes in temperature, precipitation, and other atmospheric conditions on Earth. These changes are largely driven by human activities, particularly the burning of fossil fuels, deforestation, and industrial processes, which increase levels of greenhouse gases in the atmosphere."/>
 
-      <h3> Causes Of Climate Change</h3>
+      <p className="sub_section_title"> Causes Of Climate Change</p>
 
       <div className="card-container">
         <Card
@@ -52,7 +52,7 @@ const AboutClimate = () => {
         />
       </div>
  
-      <h3> Impacts Of Climate Change</h3>
+      <p className="sub_section_title"> Impacts Of Climate Change</p>
 
       <div className="card-container">
 
@@ -110,35 +110,57 @@ const TakeAction = () => {
     <>
       <h2 id="take-action"  className="section_title" >Take Action</h2>
 
-      <h3>Individual Actions</h3>
-      <ul>
-        <li>
-          <b>Reduce, Reuse, Recycle:</b> Minimize waste by practicing the three R’s.
-        </li>
-        <li>
-          <b>Energy Efficiency:</b> Use energy-efficient appliances and light bulbs, and reduce energy consumption at home.
-        </li>
-        <li>
-          <b>Sustainable Transportation:</b> Walk, bike, carpool, or use public transportation to reduce carbon emissions.
-        </li>
-        <li>
-          <b>Support Renewable Energy:</b> Advocate for and invest in renewable energy sources like solar and wind.
-        </li>
-      </ul>
+      <p className="sub_section_title">Individual Actions</p>
+      <div className="card-container">
+        <Card
+          text="The 3Rs are a simple way to reduce waste and promote sustainability. Reduce means minimizing waste by avoiding unnecessary items and choosing products with minimal packaging. Reuse involves using items multiple times, repurposing them, and donating or sharing with others. Recycle converts waste materials into new products, such as recycling paper, plastic, glass, and metal. By adopting the 3Rs, you can significantly reduce your environmental impact, conserve natural resources, and contribute to a more sustainable future. Implementing these practices in daily life can make a significant difference in reducing waste and promoting eco-friendliness."
+          imgHeight="300px"
+          imgSrc="3R.jpeg"
+          alt="image of can with plastic"
+          title="3R : Reduce, Reuse, Recycle"
+        />
+      </div>
 
-      <h3>Community Actions</h3>
-      <ul>
-        <li>
-          <b>Articles and Reports:</b> In-depth articles and reports on various aspects of climate change.
-        </li>
-        <li>
-          <b>Infographics:</b> Visual representations of climate data and trends.
-        </li>
-        <li>
-          <b>Videos and Webinars:</b> Educational videos and webinars featuring climate experts.
-        </li>
-      </ul>
+      <div className="card-container">
+        <Card
+          text="The use of solar panels involves harnessing energy from the sun to generate electricity or heat. Solar panels convert sunlight into electrical energy using photovoltaic (PV) cells. Solar panels can power homes, businesses, and industries, and can also be used for water heating, lighting, and charging electronic devices. Their use contributes significantly to reducing carbon footprint and promoting a cleaner environment."
+          imgHeight="300px"
+          imgSrc="solar.avif"
+          alt="image of solar panel"
+          title="Install solar Panel on your Roof"
+        />
+      </div>
 
+      <div className="card-container">
+        <Card
+          text="Cycling can be used for commuting, recreation, or exercise, and can be adapted to various terrain and environments. It has numerous benefits in the form of zero dependence on fossil fuels, zero emissions and pollution, health benefits from increased physical activity, besides being an affordable means of mobility for low-income households."
+          imgHeight="300px"
+          imgSrc="cycling.jpeg"
+          alt="image of people cycling"
+          title="Shifting to cycling can result in an annual savings"
+        />
+      </div>
+
+      <p className="sub_section_title">Community Actions</p>
+
+      <div className="card-container">
+        <Card
+          text="Wind farms can be designed to meet specific energy demands, from small community projects to large-scale industrial applications. They can also be combined with other renewable energy sources, such as solar or hydro power, to create hybrid power plants. Overall, wind farms play a vital role in reducing our reliance on fossil fuels, mitigating climate change, and promoting energy independence."
+          imgHeight="300px"
+          imgSrc="wind_energy.jpeg"
+          alt="image of wind farm"
+          title="Wind Farms"
+        />
+      </div>
+      <div className="card-container">
+        <Card
+          text="These gardens foster community engagement, education, and sustainability, while providing access to fresh, healthy produce. Members work together to maintain and harvest the gardens, sharing knowledge, resources, and social connections. Community gardens can take various forms, including allotment gardens, shared gardens, container gardens, and vertical gardens. They often feature shared tools and resources, workshops, and community events. By promoting collective management and decision-making, community gardens empower individuals to take ownership of their food systems and build stronger, more resilient communities."
+          imgHeight="300px"
+          imgSrc="community_farm.avif"
+          alt="image of Community Farms"
+          title="Community Farms / Gardens"
+        />
+      </div>
     </>
   )
 }
@@ -148,7 +170,6 @@ const Resources = () => {
     <>
       <h2 id="tools" className="section_title" >Resources and Tools</h2>
  
-      <h3>Tools and Calculators</h3>
       <div className="card_square">
         ﻿<div>
           <h4><a href="https://www.carbonfootprint.com/calculator.aspx">Carbon Footprint Calculator</a></h4>

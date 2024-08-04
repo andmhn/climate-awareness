@@ -19,6 +19,11 @@ body {
     padding-bottom: 5px;
 }
 
+.sub_section_title {
+    font-size:30px;
+    color:#232925;
+}
+
 .intro {
     color:white;
     height:85vh;
