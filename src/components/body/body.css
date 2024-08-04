@@ -1,3 +1,7 @@
+body {
+  margin: 0px;
+}
+
 .contents{
     min-height: 90vh;
     display: grid;
