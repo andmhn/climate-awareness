@@ -39,8 +39,8 @@ body {
     color: rgb(0, 252, 0);
     box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
     backdrop-filter: blur(10px);
-    border: 1.5px solid rgba(255, 255, 255, 0.18);
-    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.18);
+    border-radius: 10px;
     margin: 5px 30px;
     font-weight: 900;
     padding: 15px;
@@ -52,6 +52,9 @@ body {
 }
 #teams ul{
     display: flex;
+}
+.bi-github{
+    margin-left: 4px;
 }
 
 #scroll_btn {
