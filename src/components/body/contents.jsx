@@ -177,7 +177,7 @@ const Resources = () => {
         ﻿
         <div>
           <h4>
-            <a className="link" href="https://www.carbonfootprint.com/calculator.aspx">
+            <a className="link" target="_blank" href="https://www.carbonfootprint.com/calculator.aspx">
               Carbon Footprint Calculator
             </a>
           </h4>
@@ -201,7 +201,7 @@ const Resources = () => {
         ﻿
         <div>
           <h4>
-            <a className="link" href="https://www.vem-group.com/en/energiesparrechner/">
+            <a className="link" target="_blank" href="https://www.vem-group.com/en/energiesparrechner/">
               {" "}
               Calculate Efficiency of Energy-Saving Motors
             </a>
@@ -229,22 +229,22 @@ const Team = () => {
       <div className="card" id="teams">
         <ul>
           <li>
-            <a href="https://github.com/andmhn/" className="link">
+            <a href="https://github.com/andmhn/" target="_blank" className="link">
               Anand Mohan
             </a>
           </li>
           <li>
-            <a href="https://github.com/praweensoni01/" className="link">
+            <a href="https://github.com/praweensoni01/" target="_blank" className="link">
               Praween Soni
             </a>
           </li>
           <li>
-            <a href="https://github.com/edmonsaras" className="link">
+            <a href="https://github.com/edmonsaras" target="_blank" className="link">
               Admon
             </a>
           </li>
           <li>
-            <a href="https://github.com/Saurabh-Mahto/" className="link">
+            <a href="https://github.com/Saurabh-Mahto/" target="_blank" className="link">
               Saurabh Mahto
             </a>
           </li>
