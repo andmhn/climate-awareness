@@ -7,7 +7,7 @@ const navbar = () => {
   return (
     <nav>
       <div className="logo">
-        <img src="earth_logo.png" alt="logo" height="70px"/>
+        <img src="earth_logo.png" alt="logo"/>
       </div>
       <ul>
         <li><a onClick={() => scrollById("about")}>About Climate</a></li>

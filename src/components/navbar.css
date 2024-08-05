@@ -1,28 +1,38 @@
-nav{
-    margin: 5px 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 nav {
-/*   height: 5vh;*/
-   min-height: 10vh;
+  margin: 0px 30px;
+  display: flex;
+  min-height: 8vh;
+  justify-content: space-between;
+  align-items: center;
 }
-nav .logo{
-    cursor: pointer;
+nav .logo {
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
 }
-nav ul{
-    list-style: none;
-    display: flex;
+nav .logo img {
+  height: 100%;
+  width: 100%;
 }
-nav ul li a, #link{
-    margin-right: 30px;
-    cursor: pointer;
-    color: black;
-    transition: .2s;
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li a,
+.link {
+  margin-right: 30px;
+  cursor: pointer;
+  color: black;
+  transition: 0.2s;
 }
 
-nav ul li a:hover, #link:hover{
-    color: green;
+nav ul li a:hover,
+.link:hover {
+  color: green;
+}
+
+@media (max-width: 600px) {
+  nav ul li a{
+    margin-right: 10px;
+  }
 }

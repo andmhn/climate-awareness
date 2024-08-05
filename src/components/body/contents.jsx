@@ -8,7 +8,7 @@ const contents = () => {
     <div className="contents">
       <AboutClimate />
       <TakeAction />
-      <Resources />
+      <Resources/>
       <OurMission />
       <Team />
     </div>
@@ -37,8 +37,8 @@ const AboutClimate = () => {
       <div className="card-container">
         <Card
           text="Life on Earth depends on energy coming from the Sun. About half the light energy reaching Earth's atmosphere passes through the air and clouds to the surface, where it is absorbed and radiated in the form of infrared heat. About 90% of this heat is then absorbed by greenhouse gases and re-radiated, slowing heat loss to space."
-          imgHeight="300px"
           imgSrc="green_house_gas.jpg"
+          id="cardimg"
           alt="image of factory"
           title="Increasing Greenhouses Gases Are Warming the Planet"
         />
@@ -46,8 +46,8 @@ const AboutClimate = () => {
       <div className="card-container">
         <Card
           text="Between 2000 and 2012, 2.3 million square kilometres (890,000 square miles) of forests around the world were cut down. Deforestation and forest degradation continue to take place at alarming rates, which contributes significantly to the ongoing loss of biodiversity."
-          imgHeight="300px"
           imgSrc="deforestation.jpg"
+          id="cardimg"
           alt="image of logs"
           title="Deforestation reduces the planet’s capacity to absorb CO2"
         />
@@ -58,8 +58,8 @@ const AboutClimate = () => {
       <div className="card-container">
         <Card
           text="The Earth's temperature is rising at an alarming rate, with severe consequences. Human activities like burning fossil fuels, deforestation, and industrial agriculture release greenhouse gases, trapping heat and causing global warming."
-          imgHeight="300px"
           imgSrc="rising_temperature.jpg"
+          id="cardimg"
           alt="image of traffic"
           title="Rising Temperature: A Growing Concern"
         />
@@ -67,8 +67,8 @@ const AboutClimate = () => {
       <div className="card-container">
         <Card
           text="Droughts in the Southwest and heat waves (periods of abnormally hot weather lasting days to weeks) are projected to become more intense, and cold waves less intense and less frequent."
-          imgHeight="300px"
           imgSrc="california-drought-dry-lakebed-2009.webp"
+          id="cardimg"
           alt="image of california-drought-dry-lakebed-2009"
           title="More Droughts and Heat Waves"
         />
@@ -76,8 +76,8 @@ const AboutClimate = () => {
       <div className="card-container">
         <Card
           text="Warming temperatures have extended and intensified wildfire season in the West, where long-term drought in the region has heightened the risk of fires. Scientists estimate that human-caused climate change has already doubled the area of forest burned in recent decades. By around 2050, the amount of land consumed by wildfires in Western states is projected to further increase by two to six times. Even in traditionally rainy regions like the Southeast, wildfires are projected to increase by about 30%."
-          imgHeight="300px"
           imgSrc="wildfire.webp"
+          id="cardimg"
           alt="image of wildfire"
           title="Longer Wildfire Season"
         />
@@ -85,8 +85,8 @@ const AboutClimate = () => {
       <div className="card-container">
         <Card
           text="Climate change is having an uneven effect on precipitation (rain and snow) in the United States, with some locations experiencing increased precipitation and flooding, while others suffer from drought. On average, more winter and spring precipitation is projected for the northern United States, and less for the Southwest, over this century."
-          imgHeight="300px"
           imgSrc="flooded-road-in-oklahoma.gif"
+          id="cardimg"
           alt="image of flooded-road"
           title="Changes in Precipitation Patterns"
         />
@@ -94,8 +94,8 @@ const AboutClimate = () => {
       <div className="card-container">
         <Card
           text="Sea ice cover in the Arctic Ocean is expected to continue decreasing, and the Arctic Ocean will very likely become essentially ice-free in late summer if current projections hold. This change is expected to occur before mid-century."
-          imgHeight="300px"
           imgSrc="1069-arctic-ice.webp"
+          id="cardimg"
           alt="image of arctic-ice"
           title="Arctic Is Very Likely to Become Ice-Free"
         />
@@ -115,8 +115,8 @@ const TakeAction = () => {
       <div className="card-container">
         <Card
           text="The 3Rs are a simple way to reduce waste and promote sustainability. Reduce means minimizing waste by avoiding unnecessary items and choosing products with minimal packaging. Reuse involves using items multiple times, repurposing them, and donating or sharing with others. Recycle converts waste materials into new products, such as recycling paper, plastic, glass, and metal. By adopting the 3Rs, you can significantly reduce your environmental impact, conserve natural resources, and contribute to a more sustainable future. Implementing these practices in daily life can make a significant difference in reducing waste and promoting eco-friendliness."
-          imgHeight="300px"
           imgSrc="3R.jpeg"
+          id="cardimg"
           alt="image of can with plastic"
           title="3R : Reduce, Reuse, Recycle"
         />
@@ -125,8 +125,8 @@ const TakeAction = () => {
       <div className="card-container">
         <Card
           text="The use of solar panels involves harnessing energy from the sun to generate electricity or heat. Solar panels convert sunlight into electrical energy using photovoltaic (PV) cells. Solar panels can power homes, businesses, and industries, and can also be used for water heating, lighting, and charging electronic devices. Their use contributes significantly to reducing carbon footprint and promoting a cleaner environment."
-          imgHeight="300px"
           imgSrc="solar.avif"
+          id="cardimg"
           alt="image of solar panel"
           title="Install solar Panel on your Roof"
         />
@@ -135,8 +135,8 @@ const TakeAction = () => {
       <div className="card-container">
         <Card
           text="Cycling can be used for commuting, recreation, or exercise, and can be adapted to various terrain and environments. It has numerous benefits in the form of zero dependence on fossil fuels, zero emissions and pollution, health benefits from increased physical activity, besides being an affordable means of mobility for low-income households."
-          imgHeight="300px"
           imgSrc="cycling.jpeg"
+          id="cardimg"
           alt="image of people cycling"
           title="Shifting to cycling can result in an annual savings"
         />
@@ -147,8 +147,8 @@ const TakeAction = () => {
       <div className="card-container">
         <Card
           text="Wind farms can be designed to meet specific energy demands, from small community projects to large-scale industrial applications. They can also be combined with other renewable energy sources, such as solar or hydro power, to create hybrid power plants. Overall, wind farms play a vital role in reducing our reliance on fossil fuels, mitigating climate change, and promoting energy independence."
-          imgHeight="300px"
           imgSrc="wind_energy.jpeg"
+          id="cardimg"
           alt="image of wind farm"
           title="Wind Farms"
         />
@@ -156,8 +156,8 @@ const TakeAction = () => {
       <div className="card-container">
         <Card
           text="These gardens foster community engagement, education, and sustainability, while providing access to fresh, healthy produce. Members work together to maintain and harvest the gardens, sharing knowledge, resources, and social connections. Community gardens can take various forms, including allotment gardens, shared gardens, container gardens, and vertical gardens. They often feature shared tools and resources, workshops, and community events. By promoting collective management and decision-making, community gardens empower individuals to take ownership of their food systems and build stronger, more resilient communities."
-          imgHeight="300px"
           imgSrc="community_farm.avif"
+          id="cardimg"
           alt="image of Community Farms"
           title="Community Farms / Gardens"
         />
@@ -177,7 +177,7 @@ const Resources = () => {
         ﻿
         <div>
           <h4>
-            <a href="https://www.carbonfootprint.com/calculator.aspx">
+            <a className="link" href="https://www.carbonfootprint.com/calculator.aspx">
               Carbon Footprint Calculator
             </a>
           </h4>
@@ -201,7 +201,7 @@ const Resources = () => {
         ﻿
         <div>
           <h4>
-            <a href="https://www.vem-group.com/en/energiesparrechner/">
+            <a className="link" href="https://www.vem-group.com/en/energiesparrechner/">
               {" "}
               Calculate Efficiency of Energy-Saving Motors
             </a>
@@ -226,25 +226,25 @@ const Team = () => {
   return (
     <div id="">
       <p className="section_title">Team Members</p>
-      <div id="teams">
+      <div className="card" id="teams">
         <ul>
           <li>
-            <a href="https://github.com/andmhn/" id="link">
+            <a href="https://github.com/andmhn/" className="link">
               Anand Mohan
             </a>
           </li>
           <li>
-            <a href="https://github.com/praweensoni01/" id="link">
+            <a href="https://github.com/praweensoni01/" className="link">
               Praween Soni
             </a>
           </li>
           <li>
-            <a href="https://github.com/edmonsaras" id="link">
+            <a href="https://github.com/edmonsaras" className="link">
               Admon
             </a>
           </li>
           <li>
-            <a href="https://github.com/Saurabh-Mahto/" id="link">
+            <a href="https://github.com/Saurabh-Mahto/" className="link">
               Saurabh Mahto
             </a>
           </li>
