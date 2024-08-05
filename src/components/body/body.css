@@ -37,8 +37,8 @@ body {
 
 #welcome{
     font-size: 50px;
-    color: white;
-    text-shadow: 10px 10px 20px black;
+    color: rgb(0, 252, 0);
+    text-shadow: 10px 10px 40px black;
     margin: 5px 30px;
     font-weight: 900;
 }
