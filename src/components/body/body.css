@@ -36,13 +36,13 @@ body {
 
 #welcome{
     font-size: 50px;
-    color: rgb(0, 252, 0);
+    color: white;
+    text-shadow: 0px 0px 15px black;
     box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
     backdrop-filter: blur(10px);
     border: 2px solid rgba(255, 255, 255, 0.18);
     border-radius: 10px;
     margin: 5px 30px;
-    font-weight: 900;
     padding: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
